@@ -1,0 +1,105 @@
+body{
+	color:#000;
+	background-color: #fff;
+	background-image: url("imagens_logo/cores_da_cidade.png");
+	background-repeat: repeat-x;
+	margin-top: 100px;
+	line-height: 18px;
+}
+h1{
+	size: 36px;
+	color:#22b14c;
+	border-bottom:solid medium #22b14c;; 
+	line-height: 36px;
+}
+h2{
+	size: 22px;
+	color:#99d9ea;
+	font-style: italic;
+	text-align: right;
+}
+h3{
+	size: 16px;
+	color:#fff;
+	background-color: #22b14c;
+}
+h4{
+	color: #22b14c;
+	background-color:#fff;
+}
+#estrutura{
+	width: 806px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu{
+	background-image: url("imagens_logo/logotipo.png");
+	background-repeat: no-repeat;
+	background-position-x:0px;
+	background-position-y:0px;
+	padding-top: 110px;
+	padding-bottom: 5px;
+	padding-left: 290px;  
+}
+#menu p  a:link {
+	font-weight: bold;
+	color: #fff200;
+	background-color: #22b14c;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p  a:visited {
+	font-weight: bold;
+	color: #fff220;
+	background-color: #22b14c;
+	padding: 5px;
+	text-decoration: none;
+}
+#menu p  a:hover{
+	font-weight: bold;
+	color: #22b14c;
+	background-color: #fff;
+	padding: 5px;
+	text-decoration: none;
+}
+.img{
+	margin-top: 10px;
+	padding: 10px;
+	border: ridge 4px #22b14c;
+}
+.caixa_texto{
+	text-align: justify;
+	text-indent: 25px;
+}
+#alinhar{
+	text-align: center;
+}
+table{
+	border:ridge 5px #22b14c;
+
+}
+caption {
+	font-weight: bolder;
+	color: #22b14c;
+	background-color: #fff220;
+	padding: 5px;
+}
+th{
+	color: #fff;
+	background-color: #22b14c;
+	padding: 5px;
+}
+td{
+	background-color: #fff;
+	padding: 5px;
+	border-top: solid 4px;
+}
+li{
+	list-style-image: url("imagens_logo/MC.png");
+	list-style-position: inside;
+}
+<style>
+	a{
+		display: block;
+	}
+</style>
